@@ -1,0 +1,45 @@
+{
+    "name": "vscode-theme-boring-night",
+    "displayName": "Boring Night Theme",
+    "description": "A dark, mostly, black and white team with strong focus on readability and less distractions",
+    "version": "0.1.0",
+    "publisher": "35359595",
+    "license": "MIT",
+    "galleryBanner": {
+        "color": "#BD689B",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "black and white",
+        "dark",
+        "boring",
+        "boring night"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Boring Night",
+                "uiTheme": "vs",
+                "path": "./themes/boring.json"
+            }
+        ]
+    },
+    "icon": "icon.png",
+    "bugs": {
+        "url": "https://github.com/eliasson/vscode-theme-boring/issues",
+        "email": "markus.eliasson@gmail.com"
+    },
+    "homepage": "https://github.com/eliasson/vscode-theme-boring",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eliasson/vscode-theme-boring"
+    },
+    "badges": []
+}

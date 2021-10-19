@@ -1,0 +1,115 @@
+{
+    "name": "Boring Night",
+    "type": "dark",
+    "colors": {
+        "editor.background":                                            "#1F1F1E",
+        "editor.foreground":                                            "#CECECF",
+        "editor.wordHighlightBackground":                               "#323232",
+        "editor.selectionHighlightBackground":                          "#000000",
+        "editor.selectionBackground":                                   "#000000",
+        "editorLineNumber.foreground":                                  "#CECECF",
+        "editorLineNumber.activeForeground":                            "#CECECF",
+        "editor.lineHighlightBackground":                               "#000000",
+        "editor.lineHighlightBorder":                                   null,
+        "editorWarning.foreground":                                     "#FE7803",
+        "editorWarning.border":                                         null,
+        "editorError.foreground":                                       "#EA2446",
+        "editorError.border":                                           null,
+        "editorCursor.foreground":                                      "#CECECE",
+        "editorGroup.border":                                           "#000000",
+        "editorGroupHeader.tabsBorder:":                                "#1F1F1E",
+        "peekViewEditor.background":                                    "#444444",
+        "tab.border":                                                   "#1F1F1A",
+        "tab.inactiveBackground":                                       "#000000",
+        "tab.activeForeground":                                         "#FFFFFF",
+        "tab.inactiveForeground":                                       "#CECECE",
+        "titleBar.activeForeground":                                    "#CECECF",
+        "editorGroupHeader.tabsBackground":                             "#1F1F1A",
+        "titleBar.activeBackground":                                    "#1F1F1E",
+        "sideBar.background":                                           "#1F1F1A",
+        "sideBar.foreground":                                           "#CECECF",
+        "sideBarSectionHeader.background":                              "#1F1F1F",
+        "sideBar.dropBackground":                                       "#1F1F1F",
+        "activityBar.background":                                       "#1F1F1E",
+        "list.highlightForeground":                                     "#1F1F1E",
+        "list.hoverBackground":                                         "#000000",
+        "list.activeSelectionBackground":                               "#000001",
+        "list.inactiveSelectionBackground":                             "#000001",
+        "statusBar.background":                                         "#1F1F1E",
+        "terminal.foreground":                                          "#CECECF"
+    },
+    "tokenColors": [
+        {
+            "name": "Number",
+            "scope": [
+                "constant.numeric",
+                "constant.character.numeric"
+            ],
+            "settings": {
+                "foreground": "#CECECF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Text",
+            "scope": [
+                "text"
+            ],
+            "settings": {
+                "foreground": "#CECECF",
+                "fontStyle": ""
+            }
+        },
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "settings": {
+                "foreground": "#61616F",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "settings": {
+                "foreground": "#CECEC0",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#CECECE"
+            }
+        },
+        {
+            "name": "Entity",
+            "scope": "entity",
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#CECECE"
+            }
+        },
+        {
+            "name": "Some entities",
+            "scope": [
+                "entity.name.class",
+                "meta.class entity.name.type.class",
+                "entity.other.inherited-class",
+                "entity.name.function",
+                "entity.name.type",
+                "meta.function-call entity.name.function",
+                "meta.method.declaration storage.type",
+                "support.function",
+                "support.class",
+                "support.type.primitive"
+            ],
+            "settings": {
+                "foreground": "#FFFFFF",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}
